@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.imgCont {
+  background-color: gray;
+  padding: 60px;
+}
+.imgCont:hover {
+  opacity: 0.4;
+  cursor: pointer;
+  transition: opacity 1s ease-in-out;
+}
